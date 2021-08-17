@@ -1,0 +1,84 @@
+.forgot-page {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #F5FBFF;
+    .f-container {
+        background-color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 5%;
+        width: 50%;
+        margin: 10% auto;
+        padding: 50px 0px;
+        @media screen and (max-width: 900px) {
+            width: 80%;
+            margin: 10% auto;
+        }
+        
+        h1 {
+            color: #06864D;
+            font-size: 16px;
+
+        }
+        p {
+            font-size: 16px;
+            color: #9799A1;
+            width: 80%;
+            margin: 5% auto;
+        }
+        
+    form {
+        margin-top: 30px;
+        ::placeholder { 
+            color: #9799A1;
+            padding-left: 0px;
+        }
+
+
+
+        .input-field {
+            p {
+                text-align: left;
+                margin-left: 10%;
+                color: #838383;
+            }
+            input[type="email"] {
+                box-sizing: border-box;
+                padding-left: 15px;
+            }
+            input[type="password"] {
+                box-sizing: border-box;
+                padding-left: 15px;
+            }
+            input {
+                width: 80%;
+                height: 40px;
+                border-radius: 5px;
+                border: 1px solid #d4d4d4;
+            }
+            #password {
+                position: relative;
+                // left: 8px;
+            }
+            img {
+                position: relative;
+                right: 20px;
+            }
+        }
+        .submit {
+            padding-top: 10px;
+            input {
+                width: 25%;
+                height: 33px;
+                border-radius: 5px;
+                border: 1px solid #4ba4ca;
+                color: #fff;
+                background-color: #2078BF;
+            } 
+        }
+    }
+
+    } 
+}
+

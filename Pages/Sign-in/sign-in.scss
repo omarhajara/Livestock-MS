@@ -1,0 +1,89 @@
+.login {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h2 {
+        color: #06864D;
+    }
+    p {
+        margin-top: 10px;
+        color: #06864D;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .no-acc {
+        margin-top: 20px;
+        p {
+            color: #06864D;
+            a {
+                color: #000;
+            }
+        }
+    }
+}
+
+
+form {
+    ::placeholder { 
+        color: #9799A1;
+        padding-left: 0px;
+      }
+    .forgot {
+        text-align: right;
+        margin-right: 10%;
+        margin-top: 20px;
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+    }
+
+
+    .input-field {
+        p {
+            text-align: left;
+            margin-left: 10%;
+            font-size: 16px;
+            color: #06864D;
+        }
+        input[type="text"] {
+            box-sizing: border-box;
+            padding-left: 15px;
+        }
+        input[type="password"] {
+            box-sizing: border-box;
+            padding-left: 15px;
+        }
+        input {
+            width: 80%;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid #d4d4d4;
+        }
+        #password {
+            position: relative;
+            // left: 8px;
+        }
+        img {
+            position: relative;
+            right: 20px;
+        }
+    }
+    .submit {
+        padding-top: 10px;
+        button {
+            width: 80%;
+            height: 33px;
+            border-radius: 5px;
+            border: 1px solid #4ba4ca;
+            color: #fff;
+            background-color: #2078BF;
+            a {
+                color: #fff;
+                font-size: 16px;
+                text-decoration: none;
+            }
+        } 
+    }
+}

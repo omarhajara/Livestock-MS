@@ -1,0 +1,200 @@
+.content {
+    
+    @media screen and (max-width: 770px) {
+        width: 100%;
+        margin: 0 auto;
+    }
+    @media screen and (min-width: 950px) {
+        // position: relative;
+        // left: 10%;
+        // margin-left: 26%;
+        // width: 100%;
+        margin-left: 20%;
+        margin-right: 10%;
+    }
+    @media screen and (min-width: 1200px) {
+        // position: relative;
+        // left: 10%;
+        // margin-left: 26%;
+        // width: 100%;
+        margin-left: 18%;
+        margin-right: 10%;
+    }
+    .vaccination {
+       
+        .vaccine-modal {
+            border: 1px solid #e4e6e5;
+            padding: 20px;
+            width: 100%;
+            margin: 5% auto;
+            @media screen and (max-width: 770px) {
+                margin: 5% auto;
+                width: 100% !important;
+            }
+        }
+        form{
+            text-align: left;
+            border: 1px solid #e4e6e5;
+            padding: 20px;
+            @media screen and (max-width: 770px) {
+                    margin: 0 auto;
+                    width: 100% !important;
+            }
+            label {
+                color: #535c58;
+                font-size: 16px;
+            }
+            input {
+                height: 30px;
+                border-radius: 5px;
+            }
+        }
+        
+
+        h1 {
+            color: #06864D;
+            font-size: 16px;
+        }
+        button {
+            width: 160px;
+            height: 30px;
+            background-color: #2078BF;
+            border: none;
+            color: #fff;
+            font-size: 13px;
+            border-radius: 5px;
+        }
+        .record {
+            margin-top: 10px;
+            border-top: 1px solid #e4e6e5;
+            padding-top: 30px;
+            text-align: center;
+            font-size: 30px;
+            color: #e4e6e5;
+            .table-content-record {
+                table {
+                    width: 100% !important;
+                }
+            }
+        }
+        .save-cancel-btn {
+            @media screen and (max-width: 770px) {
+                margin: 5% auto;
+                width: 80% !important;
+            }
+            .cancel-btn {
+                width: 100px;
+                height: 30px;
+                background-color: rgba(175, 36, 36, 0.952);
+                border: none;
+                color: #fff;
+                font-size: 13px;
+                border-radius: 5px;
+                float: right;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                
+            }
+            .save-btn {
+                width: 70px;
+                height: 30px;
+                background-color: #2078BF;
+                border: none;
+                color: #fff;
+                font-size: 13px;
+                border-radius: 5px;
+                float: right;
+        
+            }
+        }
+    }
+    .breed-header {
+        width: 100%;
+        position: relative;
+        top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 100px;
+        @media screen and (max-width: 770px) {
+            width: 100%;
+            margin: 0 auto;
+        }
+        // padding-bottom: 20px;
+        h1 {
+            width: 50%;
+            font-size: 24px;
+            color: #2078BF;
+            font-weight: 400;
+            @media screen and (max-width: 770px) {
+                margin: 0 auto;
+                width: 80% !important;
+        }
+        }
+        button {
+            width: 200px;
+            height: 30px;
+            background-color: #06864D;
+            border: none;
+            color: #fff;
+            font-size: 13px;
+            text-align: center;
+            border-radius: 5px;
+        }
+    }
+    p {
+        font-size: 14px;
+        width: 90%;
+        margin: 2% auto;
+        @media screen and (min-width: 770px) {
+            width: 100%;
+            
+        }
+    }
+    .search {
+        width: 40%;
+        height: 5%;
+        border: 1px solid #06864D;
+        // background-color: transparent;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        // margin-top: 10px;
+        @media screen and (max-width: 770px) {
+            margin-left: 5%;
+            
+        }
+        input[type="text"] {
+            box-sizing: border-box;
+            padding-left: 15px;
+        }
+    }
+           
+    
+    .breed-table {
+        width: 95%;
+        margin: 0 auto;
+        .table-content {
+            width: 100%;
+            table {
+                @media screen and (max-width: 770px) {
+                    width: 90%;
+                    margin: 0 auto;
+                }
+                text-align: center !important;
+                        th {
+                            color: #06864D;
+                        }
+                tbody {
+                    tr {
+                        position: relative;
+                        top: 10px;
+                        td {
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

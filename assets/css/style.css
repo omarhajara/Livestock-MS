@@ -1,0 +1,89 @@
+
+.top {
+    width: 100%;
+    padding: 2% 0;
+}
+.logo {
+    width: 200px;
+    height: 100px;
+}
+.header {
+    width: 100%;
+    padding: 0 2%;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+}
+.header .top-banner {
+    background-color: rgb(175, 230, 175);
+    padding: 5% 34% 7% 5%;
+    border-radius: 20px;
+    top: 20;
+}
+.header .top-banner2 {
+    background-color: rgb(175, 230, 175);
+    padding: 2% 5%;
+    border-radius: 20px;
+    position: relative;
+}
+.pay-side {
+    background: #fff;
+    padding: 2% 5%;
+    border-radius: 20px;
+    position: relative;
+    width: 60%;
+    margin:  10px auto;
+    -webkit-box-shadow: -1px 0px 25px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: -1px 0px 25px 0px rgba(0,0,0,0.1);
+box-shadow: -1px 0px 25px 0px rgba(0,0,0,0.1);
+min-height: 500px;
+
+}
+.side-banner {
+    position: absolute;
+    background: url(../images/bg-side.jpg);
+    background-size: cover;
+    width: 30%;
+    min-height: 400px;
+    right: 30px;
+    top: -20px;
+    border-radius: 20px;
+}
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 2% 0;
+
+}
+
+.sections {
+    width: 100%;
+    padding: 100px 30px 30px 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.sections .section {
+    width: 100%;
+    padding: 5%;
+    border-radius: 10px;
+    min-height: 100px;
+    background: #f4f6fd;
+    border: 1px solid #b6c3f4;
+    -webkit-box-shadow: -1px 0px 25px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: -1px 0px 25px 0px rgba(0,0,0,0.1);
+box-shadow: -1px 0px 25px 0px rgba(0,0,0,0.1);
+}
+.sections .section h3 {
+    font-weight: 600;
+}
+
+.icon-home {
+    float: left;
+    margin-right: 20px;
+    width: 60px;
+    height: 80px;
+}
+.icon-home i {
+    font-size: 2.5em;
+    border-radius: 50%;
+    padding: 10px 17px;
+}

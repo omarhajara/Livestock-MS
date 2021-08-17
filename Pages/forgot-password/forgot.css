@@ -1,0 +1,108 @@
+.forgot-page {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #F5FBFF;
+}
+
+.forgot-page .f-container {
+  background-color: #fff;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5%;
+  width: 50%;
+  margin: 10% auto;
+  padding: 50px 0px;
+}
+
+@media screen and (max-width: 900px) {
+  .forgot-page .f-container {
+    width: 80%;
+    margin: 10% auto;
+  }
+}
+
+.forgot-page .f-container h1 {
+  color: #06864D;
+  font-size: 16px;
+}
+
+.forgot-page .f-container p {
+  font-size: 16px;
+  color: #9799A1;
+  width: 80%;
+  margin: 5% auto;
+}
+
+.forgot-page .f-container form {
+  margin-top: 30px;
+}
+
+.forgot-page .f-container form ::-webkit-input-placeholder {
+  color: #9799A1;
+  padding-left: 0px;
+}
+
+.forgot-page .f-container form :-ms-input-placeholder {
+  color: #9799A1;
+  padding-left: 0px;
+}
+
+.forgot-page .f-container form ::-ms-input-placeholder {
+  color: #9799A1;
+  padding-left: 0px;
+}
+
+.forgot-page .f-container form ::placeholder {
+  color: #9799A1;
+  padding-left: 0px;
+}
+
+.forgot-page .f-container form .input-field p {
+  text-align: left;
+  margin-left: 10%;
+  color: #838383;
+}
+
+.forgot-page .f-container form .input-field input[type="email"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 15px;
+}
+
+.forgot-page .f-container form .input-field input[type="password"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 15px;
+}
+
+.forgot-page .f-container form .input-field input {
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #d4d4d4;
+}
+
+.forgot-page .f-container form .input-field #password {
+  position: relative;
+}
+
+.forgot-page .f-container form .input-field img {
+  position: relative;
+  right: 20px;
+}
+
+.forgot-page .f-container form .submit {
+  padding-top: 10px;
+}
+
+.forgot-page .f-container form .submit input {
+  width: 25%;
+  height: 33px;
+  border-radius: 5px;
+  border: 1px solid #4ba4ca;
+  color: #fff;
+  background-color: #2078BF;
+}
+/*# sourceMappingURL=forgot.css.map */

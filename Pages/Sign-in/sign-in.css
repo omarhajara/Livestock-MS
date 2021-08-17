@@ -1,0 +1,115 @@
+.login {
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.login h2 {
+  color: #06864D;
+}
+
+.login p {
+  margin-top: 10px;
+  color: #06864D;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.login .no-acc {
+  margin-top: 20px;
+}
+
+.login .no-acc p {
+  color: #06864D;
+}
+
+.login .no-acc p a {
+  color: #000;
+}
+
+form ::-webkit-input-placeholder {
+  color: #9799A1;
+  padding-left: 0px;
+}
+
+form :-ms-input-placeholder {
+  color: #9799A1;
+  padding-left: 0px;
+}
+
+form ::-ms-input-placeholder {
+  color: #9799A1;
+  padding-left: 0px;
+}
+
+form ::placeholder {
+  color: #9799A1;
+  padding-left: 0px;
+}
+
+form .forgot {
+  text-align: right;
+  margin-right: 10%;
+  margin-top: 20px;
+}
+
+form .forgot a {
+  color: #000;
+  text-decoration: none;
+}
+
+form .input-field p {
+  text-align: left;
+  margin-left: 10%;
+  font-size: 16px;
+  color: #06864D;
+}
+
+form .input-field input[type="text"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 15px;
+}
+
+form .input-field input[type="password"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 15px;
+}
+
+form .input-field input {
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #d4d4d4;
+}
+
+form .input-field #password {
+  position: relative;
+}
+
+form .input-field img {
+  position: relative;
+  right: 20px;
+}
+
+form .submit {
+  padding-top: 10px;
+}
+
+form .submit button {
+  width: 80%;
+  height: 33px;
+  border-radius: 5px;
+  border: 1px solid #4ba4ca;
+  color: #fff;
+  background-color: #2078BF;
+}
+
+form .submit button a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=sign-in.css.map */

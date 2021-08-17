@@ -1,0 +1,225 @@
+@media screen and (max-width: 770px) {
+  .content {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .content {
+    margin-left: 20%;
+    margin-right: 10%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .content {
+    margin-left: 18%;
+    margin-right: 10%;
+  }
+}
+
+.content .vaccination .vaccine-modal {
+  border: 1px solid #e4e6e5;
+  padding: 20px;
+  width: 100%;
+  margin: 5% auto;
+}
+
+@media screen and (max-width: 770px) {
+  .content .vaccination .vaccine-modal {
+    margin: 5% auto;
+    width: 100% !important;
+  }
+}
+
+.content .vaccination form {
+  text-align: left;
+  border: 1px solid #e4e6e5;
+  padding: 20px;
+}
+
+@media screen and (max-width: 770px) {
+  .content .vaccination form {
+    margin: 0 auto;
+    width: 100% !important;
+  }
+}
+
+.content .vaccination form label {
+  color: #535c58;
+  font-size: 16px;
+}
+
+.content .vaccination form input {
+  height: 30px;
+  border-radius: 5px;
+}
+
+.content .vaccination h1 {
+  color: #06864D;
+  font-size: 16px;
+}
+
+.content .vaccination button {
+  width: 160px;
+  height: 30px;
+  background-color: #2078BF;
+  border: none;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 5px;
+}
+
+.content .vaccination .record {
+  margin-top: 10px;
+  border-top: 1px solid #e4e6e5;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: #e4e6e5;
+}
+
+.content .vaccination .record .table-content-record table {
+  width: 100% !important;
+}
+
+@media screen and (max-width: 770px) {
+  .content .vaccination .save-cancel-btn {
+    margin: 5% auto;
+    width: 80% !important;
+  }
+}
+
+.content .vaccination .save-cancel-btn .cancel-btn {
+  width: 100px;
+  height: 30px;
+  background-color: rgba(175, 36, 36, 0.952);
+  border: none;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 5px;
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.content .vaccination .save-cancel-btn .save-btn {
+  width: 70px;
+  height: 30px;
+  background-color: #2078BF;
+  border: none;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 5px;
+  float: right;
+}
+
+.content .breed-header {
+  width: 100%;
+  position: relative;
+  top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100px;
+}
+
+@media screen and (max-width: 770px) {
+  .content .breed-header {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.content .breed-header h1 {
+  width: 50%;
+  font-size: 24px;
+  color: #2078BF;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 770px) {
+  .content .breed-header h1 {
+    margin: 0 auto;
+    width: 80% !important;
+  }
+}
+
+.content .breed-header button {
+  width: 200px;
+  height: 30px;
+  background-color: #06864D;
+  border: none;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.content p {
+  font-size: 14px;
+  width: 90%;
+  margin: 2% auto;
+}
+
+@media screen and (min-width: 770px) {
+  .content p {
+    width: 100%;
+  }
+}
+
+.content .search {
+  width: 40%;
+  height: 5%;
+  border: 1px solid #06864D;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 770px) {
+  .content .search {
+    margin-left: 5%;
+  }
+}
+
+.content .search input[type="text"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 15px;
+}
+
+.content .breed-table {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.content .breed-table .table-content {
+  width: 100%;
+}
+
+.content .breed-table .table-content table {
+  text-align: center !important;
+}
+
+@media screen and (max-width: 770px) {
+  .content .breed-table .table-content table {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.content .breed-table .table-content table th {
+  color: #06864D;
+}
+
+.content .breed-table .table-content table tbody tr {
+  position: relative;
+  top: 10px;
+}
+/*# sourceMappingURL=breed.css.map */
